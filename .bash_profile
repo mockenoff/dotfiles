@@ -22,11 +22,10 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 if  which brew > /dev/null; then
 	# bash completion
 	if [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
+		export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d";
 		source "$(brew --prefix)/share/bash-completion/bash_completion";
 	elif [ -f /etc/bash_completion ]; then
 		source /etc/bash_completion;
-	elif [ -f /usr/local/etc/profile.d/bash_completion.sh ]; then
-		source /usr/local/etc/profile.d/bash_completion.sh
 	fi;
 
 	# homebrew completion
