@@ -1,0 +1,13 @@
+{
+	"auto_find_in_selection": true,
+	"drag_text": false,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"mini_diff": false,
+	"show_definitions": false,
+	"show_navigation_bar": false,
+	"word_wrap": false
+}
